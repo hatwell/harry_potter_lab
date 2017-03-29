@@ -1,0 +1,25 @@
+<div class="grid">
+<% for house in @houses %>
+
+
+
+<div class="grid-row">
+
+
+<div class="grid-cell name">
+<p>
+  <img class="house_img" src= "<%= house.url_address %>" alt=""></p>
+  <p>Name: <span id="house_name"><%= house.house_name()%></span></p>
+
+  </div>
+  <div class="grid-cell bio">
+  <p>
+
+    <%= house.bio%>
+
+  </p>
+  </div>
+
+  </div>
+<% end%>
+</div>

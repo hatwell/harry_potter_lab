@@ -1,0 +1,80 @@
+
+
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: 0px;
+  background-color: linen;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+nav {
+  background-color: lightskyblue;
+  padding: 3px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+input {
+  margin: 5px;
+}
+
+.house_img {
+  height:150px;
+  width:auto;
+  display:inline-block;
+  align: left;
+  border: 1px;
+  border-style: solid;
+  margin: 5px;
+
+}
+
+.homepage_content {
+  text-align: center;
+
+}
+
+#frontpage_image {
+  height:300px;
+  width:auto;
+  border: 1px;
+  border-style: solid;
+}
+
+.grid-row {
+  display:flex;
+  flex-direction: row;
+}
+
+.grid-cell {
+  /*flex:4;*/
+  padding: 2px;
+}
+
+.bio {
+  width: 80%;
+  float: left;
+  padding-right: 20px;
+  text-align: justify;
+
+}
+
+.name {
+  width: 20%;
+}
+
+#house_name {
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 2em;
+}
